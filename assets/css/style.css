@@ -3,22 +3,21 @@
     padding: 0;
 }
 .icon {
-    height: 46px;
-
+    height: 36px;
 }
 header {
     display: flex;
     justify-content: space-between; 
     align-items: center;  
-    background-color: rgb(99, 166, 221); 
-    padding: 0 40px;
+    background-color: rgb(6, 39, 66);
+    padding: 14px 40px;
 }
 .header-left {
     display: flex;
     align-items: center;
 }
 .header-left span {
-    color: yellow;
+    color: white;
     margin-left: 22px;
     font-size: 20px;
 }
@@ -30,9 +29,6 @@ header {
 .header-right span:last-child {
     margin-right: 0;
 }
-/* .header-right span:nth-child(1) {
-    color: red;
-} */
 .welcome {
     background-image: url(../img/background.jpg);
     background-size: cover;
@@ -60,9 +56,7 @@ li {
 }
 .programming {
     width: 100%;
-    /* background-color: wheat; */
     margin: 0 auto;
-    /*  */
 }
 .programming h2,
 .english h2
@@ -71,7 +65,6 @@ li {
     text-align: center;
     color: grey;
     padding-top: 40px;
-    /* margin-top: 40px; */
 }
 .contents {
     display: flex;
@@ -84,14 +77,12 @@ li {
     width: 50%;
     line-height: 1.5;
 }
-
 .contents img {
     height: 150px;
     margin: 0 20px;
 }
-
 footer {
-    background-color: blue;
+    background-color: rgb(6, 39, 66);
     color: white;
     text-align: center;
     padding: 20px 0;
