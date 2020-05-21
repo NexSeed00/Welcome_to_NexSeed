@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.icon {
+.logo {
     height: 36px;
 }
 header {
@@ -10,6 +10,7 @@ header {
     justify-content: space-between; 
     align-items: center;  
     background-color: rgb(6, 39, 66);
+    color: white;
     padding: 14px 40px;
 }
 .header-left {
