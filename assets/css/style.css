@@ -13,30 +13,21 @@ header {
     color: white;
     padding: 14px 40px;
 }
-.header-left {
+.nav {
     display: flex;
-    align-items: center;
 }
-.header-left span {
-    color: white;
-    margin-left: 22px;
-    font-size: 20px;
-}
-.header-right ul {
+.nav > li > a {
     color: white;
     font-size: 20px;
-    display: flex;
-    /* margin-right: 20px; */
-}
-.header-right li {
     margin-left: 20px;
+    text-decoration: none;;
 }
 li {
     list-style: none;
 }
-.header-right span:last-child {
+/* .header-right span:last-child {
     margin-right: 0;
-}
+} */
 .welcome {
     background-image: url(../img/background.jpg);
     background-size: cover;
@@ -57,15 +48,14 @@ li {
     font-weight: bold;
     text-align: center;
 }
-.guideline li {
+.guideline > li {
     margin-top: 14px;
 }
-.programming {
+#programming, #english {
     width: 100%;
-    margin: 0 auto;
 }
-.programming h2,
-.english h2
+#programming > h2,
+#english > h2
  {
     font-size: 40px;
     text-align: center;
@@ -81,9 +71,8 @@ li {
 }
 .description {
     width: 50%;
-    line-height: 1.5;
 }
-.contents img {
+.contents > img {
     height: 150px;
     margin: 0 20px;
 }
