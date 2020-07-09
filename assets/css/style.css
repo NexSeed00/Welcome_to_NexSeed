@@ -10,7 +10,6 @@ header {
     justify-content: space-between; 
     align-items: center;  
     background-color: rgb(6, 39, 66);
-    color: white;
     padding: 14px 40px;
 }
 .nav {
@@ -20,16 +19,10 @@ header {
     color: white;
     font-size: 20px;
     margin-left: 20px;
-    text-decoration: none;;
+    text-decoration: none;
 }
-li {
-    list-style: none;
-}
-/* .header-right span:last-child {
-    margin-right: 0;
-} */
 .welcome {
-    background-image: url(../img/background.jpg);
+    background-image: url("../img/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
